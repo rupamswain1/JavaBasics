@@ -3,7 +3,7 @@
 <suite name="JavaBasics" parallel="classes">
 	<test thread-count="5" name="JavaBasics Test" verbose="2">
 		<classes>
-			<class name="com.stringOperation.Test.ReverseStringTes"></class>
+			<class name="com.stringOperation.Test.ReverseStringTest"></class>
 		</classes>
 	</test>
 </suite>
