@@ -7,10 +7,3 @@
 		</classes>
 	</test>
 </suite>
-<suite name="JavaBasics2" parallel="classes">
-	<test thread-count="5" name="JavaBasics Test" verbose="2">
-		<classes>
-			<class name="com.stringOperation.Test.ReverseStringTest"></class>
-		</classes>
-	</test>
-</suite>
