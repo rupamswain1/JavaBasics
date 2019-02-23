@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [JavaBasics]" parallel="classes">
+  <test thread-count="5" verbose="0" name="JavaBasics Test(failed)" parallel="classes">
+    <classes>
+      <class name="com.stringOperation.Test.ReverseStringTest">
+        <methods>
+          <include name="suit"/>
+          <include name="destroy"/>
+          <include name="cls"/>
+          <include name="test"/>
+          <include name="ReversestringTest" invocation-numbers="4"/>
+          <include name="objIntialise"/>
+          <include name="ReverseStringbuilderTest" invocation-numbers="4"/>
+        </methods>
+      </class> <!-- com.stringOperation.Test.ReverseStringTest -->
+    </classes>
+  </test> <!-- JavaBasics Test(failed) -->
+</suite> <!-- Failed suite [JavaBasics] -->
