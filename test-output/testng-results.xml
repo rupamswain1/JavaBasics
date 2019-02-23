@@ -2,28 +2,28 @@
 <testng-results skipped="0" failed="0" ignored="0" total="10" passed="10">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="483" started-at="2019-02-23T10:07:32Z" finished-at="2019-02-23T10:07:32Z">
+  <suite name="JavaBasics" duration-ms="759" started-at="2019-02-23T12:19:38Z" finished-at="2019-02-23T12:19:39Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="483" started-at="2019-02-23T10:07:32Z" finished-at="2019-02-23T10:07:32Z">
+    <test name="JavaBasics Test" duration-ms="759" started-at="2019-02-23T12:19:38Z" finished-at="2019-02-23T12:19:39Z">
       <class name="com.stringOperation.Test.ReverseStringTest">
-        <test-method status="PASS" signature="suit()[pri:0, instance:com.stringOperation.Test.ReverseStringTest@9629756]" name="suit" is-config="true" duration-ms="47" started-at="2019-02-23T10:07:32Z" finished-at="2019-02-23T10:07:32Z">
+        <test-method status="PASS" signature="suit()[pri:0, instance:com.stringOperation.Test.ReverseStringTest@9629756]" name="suit" is-config="true" duration-ms="108" started-at="2019-02-23T12:19:38Z" finished-at="2019-02-23T12:19:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- suit -->
-        <test-method status="PASS" signature="test()[pri:0, instance:com.stringOperation.Test.ReverseStringTest@9629756]" name="test" is-config="true" duration-ms="0" started-at="2019-02-23T10:07:32Z" finished-at="2019-02-23T10:07:32Z">
+        <test-method status="PASS" signature="test()[pri:0, instance:com.stringOperation.Test.ReverseStringTest@9629756]" name="test" is-config="true" duration-ms="2" started-at="2019-02-23T12:19:38Z" finished-at="2019-02-23T12:19:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method status="PASS" signature="cls()[pri:0, instance:com.stringOperation.Test.ReverseStringTest@9629756]" name="cls" is-config="true" duration-ms="1" started-at="2019-02-23T10:07:32Z" finished-at="2019-02-23T10:07:32Z">
+        <test-method status="PASS" signature="cls()[pri:0, instance:com.stringOperation.Test.ReverseStringTest@9629756]" name="cls" is-config="true" duration-ms="1" started-at="2019-02-23T12:19:38Z" finished-at="2019-02-23T12:19:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cls -->
-        <test-method status="PASS" signature="objIntialise()[pri:0, instance:com.stringOperation.Test.ReverseStringTest@9629756]" name="objIntialise" is-config="true" duration-ms="0" started-at="2019-02-23T10:07:32Z" finished-at="2019-02-23T10:07:32Z">
+        <test-method status="PASS" signature="objIntialise()[pri:0, instance:com.stringOperation.Test.ReverseStringTest@9629756]" name="objIntialise" is-config="true" duration-ms="35" started-at="2019-02-23T12:19:38Z" finished-at="2019-02-23T12:19:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- objIntialise -->
-        <test-method status="PASS" signature="ReverseStringbuilderTest(java.lang.String, java.lang.String)[pri:0, instance:com.stringOperation.Test.ReverseStringTest@9629756]" name="ReverseStringbuilderTest" duration-ms="16" started-at="2019-02-23T10:07:32Z" data-provider="TestData" finished-at="2019-02-23T10:07:32Z">
+        <test-method status="PASS" signature="ReverseStringbuilderTest(java.lang.String, java.lang.String)[pri:0, instance:com.stringOperation.Test.ReverseStringTest@9629756]" name="ReverseStringbuilderTest" duration-ms="48" started-at="2019-02-23T12:19:38Z" data-provider="TestData" finished-at="2019-02-23T12:19:38Z">
           <params>
             <param index="0">
               <value>
@@ -39,11 +39,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ReverseStringbuilderTest -->
-        <test-method status="PASS" signature="destroy()[pri:0, instance:com.stringOperation.Test.ReverseStringTest@9629756]" name="destroy" is-config="true" duration-ms="0" started-at="2019-02-23T10:07:32Z" finished-at="2019-02-23T10:07:32Z">
+        <test-method status="PASS" signature="destroy()[pri:0, instance:com.stringOperation.Test.ReverseStringTest@9629756]" name="destroy" is-config="true" duration-ms="1" started-at="2019-02-23T12:19:38Z" finished-at="2019-02-23T12:19:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- destroy -->
-        <test-method status="PASS" signature="ReverseStringbuilderTest(java.lang.String, java.lang.String)[pri:0, instance:com.stringOperation.Test.ReverseStringTest@9629756]" name="ReverseStringbuilderTest" duration-ms="21" started-at="2019-02-23T10:07:32Z" data-provider="TestData" finished-at="2019-02-23T10:07:32Z">
+        <test-method status="PASS" signature="objIntialise()[pri:0, instance:com.stringOperation.Test.ReverseStringTest@9629756]" name="objIntialise" is-config="true" duration-ms="1" started-at="2019-02-23T12:19:38Z" finished-at="2019-02-23T12:19:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- objIntialise -->
+        <test-method status="PASS" signature="ReverseStringbuilderTest(java.lang.String, java.lang.String)[pri:0, instance:com.stringOperation.Test.ReverseStringTest@9629756]" name="ReverseStringbuilderTest" duration-ms="34" started-at="2019-02-23T12:19:38Z" data-provider="TestData" finished-at="2019-02-23T12:19:38Z">
           <params>
             <param index="0">
               <value>
@@ -59,11 +63,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ReverseStringbuilderTest -->
-        <test-method status="PASS" signature="objIntialise()[pri:0, instance:com.stringOperation.Test.ReverseStringTest@9629756]" name="objIntialise" is-config="true" duration-ms="0" started-at="2019-02-23T10:07:32Z" finished-at="2019-02-23T10:07:32Z">
+        <test-method status="PASS" signature="destroy()[pri:0, instance:com.stringOperation.Test.ReverseStringTest@9629756]" name="destroy" is-config="true" duration-ms="1" started-at="2019-02-23T12:19:38Z" finished-at="2019-02-23T12:19:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- destroy -->
+        <test-method status="PASS" signature="objIntialise()[pri:0, instance:com.stringOperation.Test.ReverseStringTest@9629756]" name="objIntialise" is-config="true" duration-ms="1" started-at="2019-02-23T12:19:38Z" finished-at="2019-02-23T12:19:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- objIntialise -->
-        <test-method status="PASS" signature="ReverseStringbuilderTest(java.lang.String, java.lang.String)[pri:0, instance:com.stringOperation.Test.ReverseStringTest@9629756]" name="ReverseStringbuilderTest" duration-ms="15" started-at="2019-02-23T10:07:32Z" data-provider="TestData" finished-at="2019-02-23T10:07:32Z">
+        <test-method status="PASS" signature="ReverseStringbuilderTest(java.lang.String, java.lang.String)[pri:0, instance:com.stringOperation.Test.ReverseStringTest@9629756]" name="ReverseStringbuilderTest" duration-ms="16" started-at="2019-02-23T12:19:38Z" data-provider="TestData" finished-at="2019-02-23T12:19:38Z">
           <params>
             <param index="0">
               <value>
@@ -79,19 +87,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ReverseStringbuilderTest -->
-        <test-method status="PASS" signature="destroy()[pri:0, instance:com.stringOperation.Test.ReverseStringTest@9629756]" name="destroy" is-config="true" duration-ms="0" started-at="2019-02-23T10:07:32Z" finished-at="2019-02-23T10:07:32Z">
+        <test-method status="PASS" signature="destroy()[pri:0, instance:com.stringOperation.Test.ReverseStringTest@9629756]" name="destroy" is-config="true" duration-ms="1" started-at="2019-02-23T12:19:38Z" finished-at="2019-02-23T12:19:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- destroy -->
-        <test-method status="PASS" signature="objIntialise()[pri:0, instance:com.stringOperation.Test.ReverseStringTest@9629756]" name="objIntialise" is-config="true" duration-ms="0" started-at="2019-02-23T10:07:32Z" finished-at="2019-02-23T10:07:32Z">
+        <test-method status="PASS" signature="objIntialise()[pri:0, instance:com.stringOperation.Test.ReverseStringTest@9629756]" name="objIntialise" is-config="true" duration-ms="0" started-at="2019-02-23T12:19:38Z" finished-at="2019-02-23T12:19:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- objIntialise -->
-        <test-method status="PASS" signature="destroy()[pri:0, instance:com.stringOperation.Test.ReverseStringTest@9629756]" name="destroy" is-config="true" duration-ms="0" started-at="2019-02-23T10:07:32Z" finished-at="2019-02-23T10:07:32Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- destroy -->
-        <test-method status="PASS" signature="ReverseStringbuilderTest(java.lang.String, java.lang.String)[pri:0, instance:com.stringOperation.Test.ReverseStringTest@9629756]" name="ReverseStringbuilderTest" duration-ms="15" started-at="2019-02-23T10:07:32Z" data-provider="TestData" finished-at="2019-02-23T10:07:32Z">
+        <test-method status="PASS" signature="ReverseStringbuilderTest(java.lang.String, java.lang.String)[pri:0, instance:com.stringOperation.Test.ReverseStringTest@9629756]" name="ReverseStringbuilderTest" duration-ms="26" started-at="2019-02-23T12:19:38Z" data-provider="TestData" finished-at="2019-02-23T12:19:38Z">
           <params>
             <param index="0">
               <value>
@@ -107,15 +111,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ReverseStringbuilderTest -->
-        <test-method status="PASS" signature="objIntialise()[pri:0, instance:com.stringOperation.Test.ReverseStringTest@9629756]" name="objIntialise" is-config="true" duration-ms="0" started-at="2019-02-23T10:07:32Z" finished-at="2019-02-23T10:07:32Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- objIntialise -->
-        <test-method status="PASS" signature="destroy()[pri:0, instance:com.stringOperation.Test.ReverseStringTest@9629756]" name="destroy" is-config="true" duration-ms="16" started-at="2019-02-23T10:07:32Z" finished-at="2019-02-23T10:07:32Z">
+        <test-method status="PASS" signature="destroy()[pri:0, instance:com.stringOperation.Test.ReverseStringTest@9629756]" name="destroy" is-config="true" duration-ms="1" started-at="2019-02-23T12:19:38Z" finished-at="2019-02-23T12:19:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- destroy -->
-        <test-method status="PASS" signature="ReverseStringbuilderTest(java.lang.String, java.lang.String)[pri:0, instance:com.stringOperation.Test.ReverseStringTest@9629756]" name="ReverseStringbuilderTest" duration-ms="15" started-at="2019-02-23T10:07:32Z" data-provider="TestData" finished-at="2019-02-23T10:07:32Z">
+        <test-method status="PASS" signature="objIntialise()[pri:0, instance:com.stringOperation.Test.ReverseStringTest@9629756]" name="objIntialise" is-config="true" duration-ms="0" started-at="2019-02-23T12:19:38Z" finished-at="2019-02-23T12:19:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- objIntialise -->
+        <test-method status="PASS" signature="ReverseStringbuilderTest(java.lang.String, java.lang.String)[pri:0, instance:com.stringOperation.Test.ReverseStringTest@9629756]" name="ReverseStringbuilderTest" duration-ms="19" started-at="2019-02-23T12:19:38Z" data-provider="TestData" finished-at="2019-02-23T12:19:38Z">
           <params>
             <param index="0">
               <value>
@@ -131,15 +135,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ReverseStringbuilderTest -->
-        <test-method status="PASS" signature="objIntialise()[pri:0, instance:com.stringOperation.Test.ReverseStringTest@9629756]" name="objIntialise" is-config="true" duration-ms="0" started-at="2019-02-23T10:07:32Z" finished-at="2019-02-23T10:07:32Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- objIntialise -->
-        <test-method status="PASS" signature="destroy()[pri:0, instance:com.stringOperation.Test.ReverseStringTest@9629756]" name="destroy" is-config="true" duration-ms="11" started-at="2019-02-23T10:07:32Z" finished-at="2019-02-23T10:07:32Z">
+        <test-method status="PASS" signature="destroy()[pri:0, instance:com.stringOperation.Test.ReverseStringTest@9629756]" name="destroy" is-config="true" duration-ms="3" started-at="2019-02-23T12:19:38Z" finished-at="2019-02-23T12:19:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- destroy -->
-        <test-method status="PASS" signature="ReversestringTest(java.lang.String, java.lang.String)[pri:0, instance:com.stringOperation.Test.ReverseStringTest@9629756]" name="ReversestringTest" duration-ms="9" started-at="2019-02-23T10:07:32Z" data-provider="TestData" finished-at="2019-02-23T10:07:32Z">
+        <test-method status="PASS" signature="objIntialise()[pri:0, instance:com.stringOperation.Test.ReverseStringTest@9629756]" name="objIntialise" is-config="true" duration-ms="1" started-at="2019-02-23T12:19:39Z" finished-at="2019-02-23T12:19:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- objIntialise -->
+        <test-method status="PASS" signature="ReversestringTest(java.lang.String, java.lang.String)[pri:0, instance:com.stringOperation.Test.ReverseStringTest@9629756]" name="ReversestringTest" duration-ms="56" started-at="2019-02-23T12:19:39Z" data-provider="TestData" finished-at="2019-02-23T12:19:39Z">
           <params>
             <param index="0">
               <value>
@@ -155,11 +159,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ReversestringTest -->
-        <test-method status="PASS" signature="objIntialise()[pri:0, instance:com.stringOperation.Test.ReverseStringTest@9629756]" name="objIntialise" is-config="true" duration-ms="0" started-at="2019-02-23T10:07:32Z" finished-at="2019-02-23T10:07:32Z">
+        <test-method status="PASS" signature="destroy()[pri:0, instance:com.stringOperation.Test.ReverseStringTest@9629756]" name="destroy" is-config="true" duration-ms="1" started-at="2019-02-23T12:19:39Z" finished-at="2019-02-23T12:19:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- destroy -->
+        <test-method status="PASS" signature="objIntialise()[pri:0, instance:com.stringOperation.Test.ReverseStringTest@9629756]" name="objIntialise" is-config="true" duration-ms="6" started-at="2019-02-23T12:19:39Z" finished-at="2019-02-23T12:19:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- objIntialise -->
-        <test-method status="PASS" signature="ReversestringTest(java.lang.String, java.lang.String)[pri:0, instance:com.stringOperation.Test.ReverseStringTest@9629756]" name="ReversestringTest" duration-ms="31" started-at="2019-02-23T10:07:32Z" data-provider="TestData" finished-at="2019-02-23T10:07:32Z">
+        <test-method status="PASS" signature="ReversestringTest(java.lang.String, java.lang.String)[pri:0, instance:com.stringOperation.Test.ReverseStringTest@9629756]" name="ReversestringTest" duration-ms="17" started-at="2019-02-23T12:19:39Z" data-provider="TestData" finished-at="2019-02-23T12:19:39Z">
           <params>
             <param index="0">
               <value>
@@ -175,23 +183,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ReversestringTest -->
-        <test-method status="PASS" signature="destroy()[pri:0, instance:com.stringOperation.Test.ReverseStringTest@9629756]" name="destroy" is-config="true" duration-ms="0" started-at="2019-02-23T10:07:32Z" finished-at="2019-02-23T10:07:32Z">
+        <test-method status="PASS" signature="destroy()[pri:0, instance:com.stringOperation.Test.ReverseStringTest@9629756]" name="destroy" is-config="true" duration-ms="1" started-at="2019-02-23T12:19:39Z" finished-at="2019-02-23T12:19:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- destroy -->
-        <test-method status="PASS" signature="objIntialise()[pri:0, instance:com.stringOperation.Test.ReverseStringTest@9629756]" name="objIntialise" is-config="true" duration-ms="0" started-at="2019-02-23T10:07:32Z" finished-at="2019-02-23T10:07:32Z">
+        <test-method status="PASS" signature="objIntialise()[pri:0, instance:com.stringOperation.Test.ReverseStringTest@9629756]" name="objIntialise" is-config="true" duration-ms="1" started-at="2019-02-23T12:19:39Z" finished-at="2019-02-23T12:19:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- objIntialise -->
-        <test-method status="PASS" signature="objIntialise()[pri:0, instance:com.stringOperation.Test.ReverseStringTest@9629756]" name="objIntialise" is-config="true" duration-ms="15" started-at="2019-02-23T10:07:32Z" finished-at="2019-02-23T10:07:32Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- objIntialise -->
-        <test-method status="PASS" signature="destroy()[pri:0, instance:com.stringOperation.Test.ReverseStringTest@9629756]" name="destroy" is-config="true" duration-ms="0" started-at="2019-02-23T10:07:32Z" finished-at="2019-02-23T10:07:32Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- destroy -->
-        <test-method status="PASS" signature="ReversestringTest(java.lang.String, java.lang.String)[pri:0, instance:com.stringOperation.Test.ReverseStringTest@9629756]" name="ReversestringTest" duration-ms="0" started-at="2019-02-23T10:07:32Z" data-provider="TestData" finished-at="2019-02-23T10:07:32Z">
+        <test-method status="PASS" signature="ReversestringTest(java.lang.String, java.lang.String)[pri:0, instance:com.stringOperation.Test.ReverseStringTest@9629756]" name="ReversestringTest" duration-ms="5" started-at="2019-02-23T12:19:39Z" data-provider="TestData" finished-at="2019-02-23T12:19:39Z">
           <params>
             <param index="0">
               <value>
@@ -207,11 +207,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ReversestringTest -->
-        <test-method status="PASS" signature="objIntialise()[pri:0, instance:com.stringOperation.Test.ReverseStringTest@9629756]" name="objIntialise" is-config="true" duration-ms="0" started-at="2019-02-23T10:07:32Z" finished-at="2019-02-23T10:07:32Z">
+        <test-method status="PASS" signature="destroy()[pri:0, instance:com.stringOperation.Test.ReverseStringTest@9629756]" name="destroy" is-config="true" duration-ms="11" started-at="2019-02-23T12:19:39Z" finished-at="2019-02-23T12:19:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- destroy -->
+        <test-method status="PASS" signature="objIntialise()[pri:0, instance:com.stringOperation.Test.ReverseStringTest@9629756]" name="objIntialise" is-config="true" duration-ms="1" started-at="2019-02-23T12:19:39Z" finished-at="2019-02-23T12:19:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- objIntialise -->
-        <test-method status="PASS" signature="ReversestringTest(java.lang.String, java.lang.String)[pri:0, instance:com.stringOperation.Test.ReverseStringTest@9629756]" name="ReversestringTest" duration-ms="32" started-at="2019-02-23T10:07:32Z" data-provider="TestData" finished-at="2019-02-23T10:07:32Z">
+        <test-method status="PASS" signature="ReversestringTest(java.lang.String, java.lang.String)[pri:0, instance:com.stringOperation.Test.ReverseStringTest@9629756]" name="ReversestringTest" duration-ms="3" started-at="2019-02-23T12:19:39Z" data-provider="TestData" finished-at="2019-02-23T12:19:39Z">
           <params>
             <param index="0">
               <value>
@@ -227,23 +231,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ReversestringTest -->
-        <test-method status="PASS" signature="destroy()[pri:0, instance:com.stringOperation.Test.ReverseStringTest@9629756]" name="destroy" is-config="true" duration-ms="0" started-at="2019-02-23T10:07:32Z" finished-at="2019-02-23T10:07:32Z">
+        <test-method status="PASS" signature="destroy()[pri:0, instance:com.stringOperation.Test.ReverseStringTest@9629756]" name="destroy" is-config="true" duration-ms="1" started-at="2019-02-23T12:19:39Z" finished-at="2019-02-23T12:19:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- destroy -->
-        <test-method status="PASS" signature="destroy()[pri:0, instance:com.stringOperation.Test.ReverseStringTest@9629756]" name="destroy" is-config="true" duration-ms="16" started-at="2019-02-23T10:07:32Z" finished-at="2019-02-23T10:07:32Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- destroy -->
-        <test-method status="PASS" signature="destroy()[pri:0, instance:com.stringOperation.Test.ReverseStringTest@9629756]" name="destroy" is-config="true" duration-ms="15" started-at="2019-02-23T10:07:32Z" finished-at="2019-02-23T10:07:32Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- destroy -->
-        <test-method status="PASS" signature="objIntialise()[pri:0, instance:com.stringOperation.Test.ReverseStringTest@9629756]" name="objIntialise" is-config="true" duration-ms="0" started-at="2019-02-23T10:07:32Z" finished-at="2019-02-23T10:07:32Z">
+        <test-method status="PASS" signature="objIntialise()[pri:0, instance:com.stringOperation.Test.ReverseStringTest@9629756]" name="objIntialise" is-config="true" duration-ms="7" started-at="2019-02-23T12:19:39Z" finished-at="2019-02-23T12:19:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- objIntialise -->
-        <test-method status="PASS" signature="ReversestringTest(java.lang.String, java.lang.String)[pri:0, instance:com.stringOperation.Test.ReverseStringTest@9629756]" name="ReversestringTest" duration-ms="0" started-at="2019-02-23T10:07:32Z" data-provider="TestData" finished-at="2019-02-23T10:07:32Z">
+        <test-method status="PASS" signature="ReversestringTest(java.lang.String, java.lang.String)[pri:0, instance:com.stringOperation.Test.ReverseStringTest@9629756]" name="ReversestringTest" duration-ms="8" started-at="2019-02-23T12:19:39Z" data-provider="TestData" finished-at="2019-02-23T12:19:39Z">
           <params>
             <param index="0">
               <value>
@@ -259,7 +255,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ReversestringTest -->
+        <test-method status="PASS" signature="destroy()[pri:0, instance:com.stringOperation.Test.ReverseStringTest@9629756]" name="destroy" is-config="true" duration-ms="0" started-at="2019-02-23T12:19:39Z" finished-at="2019-02-23T12:19:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- destroy -->
       </class> <!-- com.stringOperation.Test.ReverseStringTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- JavaBasics Test -->
+  </suite> <!-- JavaBasics -->
 </testng-results>
