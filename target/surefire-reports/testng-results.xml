@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="10" passed="10">
+  <reporter-output>
+  </reporter-output>
+  <suite name="com.stringOperation.Test.ReverseStringTest" duration-ms="293" started-at="2019-02-23T12:57:22Z" finished-at="2019-02-23T12:57:22Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="293" started-at="2019-02-23T12:57:22Z" finished-at="2019-02-23T12:57:22Z">
+      <class name="com.stringOperation.Test.ReverseStringTest">
+        <test-method status="PASS" signature="suit()[pri:0, instance:com.stringOperation.Test.ReverseStringTest@7a79be86]" name="suit" is-config="true" duration-ms="36" started-at="2019-02-23T12:57:21Z" finished-at="2019-02-23T12:57:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- suit -->
+        <test-method status="PASS" signature="test()[pri:0, instance:com.stringOperation.Test.ReverseStringTest@7a79be86]" name="test" is-config="true" duration-ms="0" started-at="2019-02-23T12:57:22Z" finished-at="2019-02-23T12:57:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="cls()[pri:0, instance:com.stringOperation.Test.ReverseStringTest@7a79be86]" name="cls" is-config="true" duration-ms="1" started-at="2019-02-23T12:57:22Z" finished-at="2019-02-23T12:57:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cls -->
+        <test-method status="PASS" signature="objIntialise()[pri:0, instance:com.stringOperation.Test.ReverseStringTest@7a79be86]" name="objIntialise" is-config="true" duration-ms="6" started-at="2019-02-23T12:57:22Z" finished-at="2019-02-23T12:57:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- objIntialise -->
+        <test-method status="PASS" signature="ReverseStringbuilderTest(java.lang.String, java.lang.String)[pri:0, instance:com.stringOperation.Test.ReverseStringTest@7a79be86]" name="ReverseStringbuilderTest" duration-ms="8" started-at="2019-02-23T12:57:22Z" data-provider="TestData" finished-at="2019-02-23T12:57:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abc]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[cba]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ReverseStringbuilderTest -->
+        <test-method status="PASS" signature="destroy()[pri:0, instance:com.stringOperation.Test.ReverseStringTest@7a79be86]" name="destroy" is-config="true" duration-ms="3" started-at="2019-02-23T12:57:22Z" finished-at="2019-02-23T12:57:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- destroy -->
+        <test-method status="PASS" signature="objIntialise()[pri:0, instance:com.stringOperation.Test.ReverseStringTest@7a79be86]" name="objIntialise" is-config="true" duration-ms="3" started-at="2019-02-23T12:57:22Z" finished-at="2019-02-23T12:57:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- objIntialise -->
+        <test-method status="PASS" signature="ReverseStringbuilderTest(java.lang.String, java.lang.String)[pri:0, instance:com.stringOperation.Test.ReverseStringTest@7a79be86]" name="ReverseStringbuilderTest" duration-ms="1" started-at="2019-02-23T12:57:22Z" data-provider="TestData" finished-at="2019-02-23T12:57:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[hello world]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[dlrow olleh]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ReverseStringbuilderTest -->
+        <test-method status="PASS" signature="destroy()[pri:0, instance:com.stringOperation.Test.ReverseStringTest@7a79be86]" name="destroy" is-config="true" duration-ms="1" started-at="2019-02-23T12:57:22Z" finished-at="2019-02-23T12:57:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- destroy -->
+        <test-method status="PASS" signature="objIntialise()[pri:0, instance:com.stringOperation.Test.ReverseStringTest@7a79be86]" name="objIntialise" is-config="true" duration-ms="1" started-at="2019-02-23T12:57:22Z" finished-at="2019-02-23T12:57:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- objIntialise -->
+        <test-method status="PASS" signature="ReverseStringbuilderTest(java.lang.String, java.lang.String)[pri:0, instance:com.stringOperation.Test.ReverseStringTest@7a79be86]" name="ReverseStringbuilderTest" duration-ms="0" started-at="2019-02-23T12:57:22Z" data-provider="TestData" finished-at="2019-02-23T12:57:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Hi how are you]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[uoy era woh iH]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ReverseStringbuilderTest -->
+        <test-method status="PASS" signature="destroy()[pri:0, instance:com.stringOperation.Test.ReverseStringTest@7a79be86]" name="destroy" is-config="true" duration-ms="1" started-at="2019-02-23T12:57:22Z" finished-at="2019-02-23T12:57:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- destroy -->
+        <test-method status="PASS" signature="objIntialise()[pri:0, instance:com.stringOperation.Test.ReverseStringTest@7a79be86]" name="objIntialise" is-config="true" duration-ms="2" started-at="2019-02-23T12:57:22Z" finished-at="2019-02-23T12:57:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- objIntialise -->
+        <test-method status="PASS" signature="ReverseStringbuilderTest(java.lang.String, java.lang.String)[pri:0, instance:com.stringOperation.Test.ReverseStringTest@7a79be86]" name="ReverseStringbuilderTest" duration-ms="1" started-at="2019-02-23T12:57:22Z" data-provider="TestData" finished-at="2019-02-23T12:57:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ABCD ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ DCBA]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ReverseStringbuilderTest -->
+        <test-method status="PASS" signature="destroy()[pri:0, instance:com.stringOperation.Test.ReverseStringTest@7a79be86]" name="destroy" is-config="true" duration-ms="1" started-at="2019-02-23T12:57:22Z" finished-at="2019-02-23T12:57:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- destroy -->
+        <test-method status="PASS" signature="ReverseStringbuilderTest(java.lang.String, java.lang.String)[pri:0, instance:com.stringOperation.Test.ReverseStringTest@7a79be86]" name="ReverseStringbuilderTest" duration-ms="1" started-at="2019-02-23T12:57:22Z" data-provider="TestData" finished-at="2019-02-23T12:57:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[123450]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[054321]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ReverseStringbuilderTest -->
+        <test-method status="PASS" signature="objIntialise()[pri:0, instance:com.stringOperation.Test.ReverseStringTest@7a79be86]" name="objIntialise" is-config="true" duration-ms="0" started-at="2019-02-23T12:57:22Z" finished-at="2019-02-23T12:57:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- objIntialise -->
+        <test-method status="PASS" signature="destroy()[pri:0, instance:com.stringOperation.Test.ReverseStringTest@7a79be86]" name="destroy" is-config="true" duration-ms="2" started-at="2019-02-23T12:57:22Z" finished-at="2019-02-23T12:57:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- destroy -->
+        <test-method status="PASS" signature="objIntialise()[pri:0, instance:com.stringOperation.Test.ReverseStringTest@7a79be86]" name="objIntialise" is-config="true" duration-ms="1" started-at="2019-02-23T12:57:22Z" finished-at="2019-02-23T12:57:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- objIntialise -->
+        <test-method status="PASS" signature="ReversestringTest(java.lang.String, java.lang.String)[pri:0, instance:com.stringOperation.Test.ReverseStringTest@7a79be86]" name="ReversestringTest" duration-ms="0" started-at="2019-02-23T12:57:22Z" data-provider="TestData" finished-at="2019-02-23T12:57:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abc]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[cba]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ReversestringTest -->
+        <test-method status="PASS" signature="destroy()[pri:0, instance:com.stringOperation.Test.ReverseStringTest@7a79be86]" name="destroy" is-config="true" duration-ms="4" started-at="2019-02-23T12:57:22Z" finished-at="2019-02-23T12:57:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- destroy -->
+        <test-method status="PASS" signature="objIntialise()[pri:0, instance:com.stringOperation.Test.ReverseStringTest@7a79be86]" name="objIntialise" is-config="true" duration-ms="1" started-at="2019-02-23T12:57:22Z" finished-at="2019-02-23T12:57:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- objIntialise -->
+        <test-method status="PASS" signature="ReversestringTest(java.lang.String, java.lang.String)[pri:0, instance:com.stringOperation.Test.ReverseStringTest@7a79be86]" name="ReversestringTest" duration-ms="3" started-at="2019-02-23T12:57:22Z" data-provider="TestData" finished-at="2019-02-23T12:57:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[hello world]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[dlrow olleh]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ReversestringTest -->
+        <test-method status="PASS" signature="destroy()[pri:0, instance:com.stringOperation.Test.ReverseStringTest@7a79be86]" name="destroy" is-config="true" duration-ms="1" started-at="2019-02-23T12:57:22Z" finished-at="2019-02-23T12:57:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- destroy -->
+        <test-method status="PASS" signature="objIntialise()[pri:0, instance:com.stringOperation.Test.ReverseStringTest@7a79be86]" name="objIntialise" is-config="true" duration-ms="1" started-at="2019-02-23T12:57:22Z" finished-at="2019-02-23T12:57:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- objIntialise -->
+        <test-method status="PASS" signature="ReversestringTest(java.lang.String, java.lang.String)[pri:0, instance:com.stringOperation.Test.ReverseStringTest@7a79be86]" name="ReversestringTest" duration-ms="1" started-at="2019-02-23T12:57:22Z" data-provider="TestData" finished-at="2019-02-23T12:57:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Hi how are you]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[uoy era woh iH]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ReversestringTest -->
+        <test-method status="PASS" signature="destroy()[pri:0, instance:com.stringOperation.Test.ReverseStringTest@7a79be86]" name="destroy" is-config="true" duration-ms="1" started-at="2019-02-23T12:57:22Z" finished-at="2019-02-23T12:57:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- destroy -->
+        <test-method status="PASS" signature="objIntialise()[pri:0, instance:com.stringOperation.Test.ReverseStringTest@7a79be86]" name="objIntialise" is-config="true" duration-ms="1" started-at="2019-02-23T12:57:22Z" finished-at="2019-02-23T12:57:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- objIntialise -->
+        <test-method status="PASS" signature="ReversestringTest(java.lang.String, java.lang.String)[pri:0, instance:com.stringOperation.Test.ReverseStringTest@7a79be86]" name="ReversestringTest" duration-ms="1" started-at="2019-02-23T12:57:22Z" data-provider="TestData" finished-at="2019-02-23T12:57:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ABCD ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ DCBA]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ReversestringTest -->
+        <test-method status="PASS" signature="destroy()[pri:0, instance:com.stringOperation.Test.ReverseStringTest@7a79be86]" name="destroy" is-config="true" duration-ms="1" started-at="2019-02-23T12:57:22Z" finished-at="2019-02-23T12:57:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- destroy -->
+        <test-method status="PASS" signature="objIntialise()[pri:0, instance:com.stringOperation.Test.ReverseStringTest@7a79be86]" name="objIntialise" is-config="true" duration-ms="1" started-at="2019-02-23T12:57:22Z" finished-at="2019-02-23T12:57:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- objIntialise -->
+        <test-method status="PASS" signature="ReversestringTest(java.lang.String, java.lang.String)[pri:0, instance:com.stringOperation.Test.ReverseStringTest@7a79be86]" name="ReversestringTest" duration-ms="0" started-at="2019-02-23T12:57:22Z" data-provider="TestData" finished-at="2019-02-23T12:57:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[123450]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[054321]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ReversestringTest -->
+        <test-method status="PASS" signature="destroy()[pri:0, instance:com.stringOperation.Test.ReverseStringTest@7a79be86]" name="destroy" is-config="true" duration-ms="1" started-at="2019-02-23T12:57:22Z" finished-at="2019-02-23T12:57:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- destroy -->
+      </class> <!-- com.stringOperation.Test.ReverseStringTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- com.stringOperation.Test.ReverseStringTest -->
+</testng-results>

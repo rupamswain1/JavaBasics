@@ -59,7 +59,7 @@ public class ReverseStringTest {
 				{"hello world","dlrow olleh"},
 				{"Hi how are you","uoy era woh iH"},
 				{"ABCD "," DCBA"},
-				{"123450","054321"}};
+				{"12345","054321"}};
 		return data;
 	}
 	
