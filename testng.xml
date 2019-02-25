@@ -4,6 +4,7 @@
 	<test thread-count="5" name="JavaBasics Test" verbose="2">
 		<classes>
 			<class name="com.stringOperation.Test.ReverseStringTest"></class>
+			<class name="com.stringOperation.Test.RemoveJunkTest"></class>
 		</classes>
 	</test>
 </suite>
