@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.stringOperation.Test.RemoveJunkTest">
+      <class name="com.stringOperation.Test.DuplcateCharTest">
         <methods>
-          <include name="beforeMethod"/>
-          <include name="usigReplase" invocation-numbers="1 2"/>
-          <include name="afterMethod"/>
+          <include name="destroy"/>
+          <include name="HashMethodDuplicate" invocation-numbers="1"/>
+          <include name="initz"/>
         </methods>
-      </class> <!-- com.stringOperation.Test.RemoveJunkTest -->
+      </class> <!-- com.stringOperation.Test.DuplcateCharTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
