@@ -1,3 +1,7 @@
 com\Array\ArrayOps.class
-com\stringOperation\AllStringOps.class
 com\stringOperation\ReverseString.class
+com\stringOperation\AllStringOps.class
+com\stringOperation\RemoveJunk.class
+com\stringOperation\swapStringWithoutusingThirdVar.class
+com\NumberOperations\ReverseInteger.class
+com\stringOperation\DuplicateChar.class

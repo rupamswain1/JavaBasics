@@ -1,1 +1,5 @@
+com\stringOperation\Test\DuplcateCharTest.class
+com\stringOperation\Test\NewTest.class
 com\stringOperation\Test\ReverseStringTest.class
+com\stringOperation\Test\RemoveJunkTest.class
+com\NumberOperationTest\ReverseIntegerTest.class

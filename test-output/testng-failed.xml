@@ -6,7 +6,7 @@
       <class name="com.NumberOperationTest.ReverseIntegerTest">
         <methods>
           <include name="init"/>
-          <include name="ReverseTest"/>
+          <include name="ReverseTest" invocation-numbers="0 1"/>
           <include name="dest"/>
         </methods>
       </class> <!-- com.NumberOperationTest.ReverseIntegerTest -->

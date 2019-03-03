@@ -18,9 +18,9 @@ public class ReverseIntegerTest
 	}
 	
 	@Test(dataProvider="dp")
-	public void ReverseTest(int input, int output)
+	public void ReverseTest(String input, String output)
 	{
-		Assert.assertEquals(obj.Reverse(input), output);
+		Assert.assertEquals(obj.Reverse(Integer.parseInt(input))+"", output+"");
 	}
 	
 	@DataProvider
