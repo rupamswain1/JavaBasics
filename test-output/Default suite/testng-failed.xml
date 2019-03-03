@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.stringOperation.Test.DuplcateCharTest">
+      <class name="com.NumberOperationTest.ReverseIntegerTest">
         <methods>
-          <include name="destroy"/>
-          <include name="HashMethodDuplicate" invocation-numbers="1"/>
-          <include name="initz"/>
+          <include name="init"/>
+          <include name="ReverseTest"/>
+          <include name="dest"/>
         </methods>
-      </class> <!-- com.stringOperation.Test.DuplcateCharTest -->
+      </class> <!-- com.NumberOperationTest.ReverseIntegerTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
