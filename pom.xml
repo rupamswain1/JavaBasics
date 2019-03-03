@@ -23,7 +23,7 @@
           <forkCount>0</forkCount>
           <suiteXmlFiles>
             <suiteXmlFile>testng.xml</suiteXmlFile>
-            <suiteXmlFile>testng_number.xml</suiteXmlFile>
+           
           </suiteXmlFiles>
         </configuration>
       </plugin>
