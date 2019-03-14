@@ -7,6 +7,7 @@
 			<class name="com.stringOperation.Test.RemoveJunkTest"></class>
 			<class name="com.stringOperation.Test.DuplcateCharTest"></class>
 			<class name="com.stringOperation.Test.NewTest"></class>
+			<class name="com.stringOperation.Test.EqualsTest"></class>
 		</classes>
 	</test>
 	
