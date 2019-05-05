@@ -1,13 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="31" passed="31">
+<testng-results skipped="0" failed="0" ignored="0" total="35" passed="35">
   <reporter-output>
   </reporter-output>
-  <suite name="JavaBasics" duration-ms="643" started-at="2019-03-14T03:55:02Z" finished-at="2019-03-14T03:55:02Z">
+  <suite name="JavaBasics" duration-ms="1946" started-at="2019-05-05T19:04:43Z" finished-at="2019-05-05T19:04:45Z">
     <groups>
     </groups>
-    <test name="String Operations" duration-ms="518" started-at="2019-03-14T03:55:02Z" finished-at="2019-03-14T03:55:02Z">
+    <test name="String Operations" duration-ms="1666" started-at="2019-05-05T19:04:43Z" finished-at="2019-05-05T19:04:44Z">
+      <class name="com.stringOperation.Test.sumOfNumberFromString">
+        <test-method status="PASS" signature="test(java.lang.String, java.lang.String)[pri:0, instance:com.stringOperation.Test.sumOfNumberFromString@675d3402]" name="test" duration-ms="66" started-at="2019-05-05T19:04:43Z" data-provider="dp" finished-at="2019-05-05T19:04:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[A123BCGD]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="test(java.lang.String, java.lang.String)[pri:0, instance:com.stringOperation.Test.sumOfNumberFromString@675d3402]" name="test" duration-ms="68" started-at="2019-05-05T19:04:43Z" data-provider="dp" finished-at="2019-05-05T19:04:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sdasdaw45asd5454asdsd5sadas6]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[38]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+      </class> <!-- com.stringOperation.Test.sumOfNumberFromString -->
       <class name="com.stringOperation.Test.EqualsTest">
-        <test-method status="PASS" signature="equalsMethodTest(java.lang.String, java.lang.String)[pri:0, instance:com.stringOperation.Test.EqualsTest@7c16905e]" name="equalsMethodTest" duration-ms="15" started-at="2019-03-14T03:55:02Z" data-provider="dp" finished-at="2019-03-14T03:55:02Z">
+        <test-method status="PASS" signature="init()[pri:0, instance:com.stringOperation.Test.EqualsTest@68be2bc2]" name="init" is-config="true" duration-ms="3" started-at="2019-05-05T19:04:43Z" finished-at="2019-05-05T19:04:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="equalsMethodTest(java.lang.String, java.lang.String)[pri:0, instance:com.stringOperation.Test.EqualsTest@68be2bc2]" name="equalsMethodTest" duration-ms="61" started-at="2019-05-05T19:04:43Z" data-provider="dp" finished-at="2019-05-05T19:04:43Z">
           <params>
             <param index="0">
               <value>
@@ -23,15 +61,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- equalsMethodTest -->
-        <test-method status="PASS" signature="init()[pri:0, instance:com.stringOperation.Test.EqualsTest@7c16905e]" name="init" is-config="true" duration-ms="0" started-at="2019-03-14T03:55:02Z" finished-at="2019-03-14T03:55:02Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- init -->
-        <test-method status="PASS" signature="end()[pri:0, instance:com.stringOperation.Test.EqualsTest@7c16905e]" name="end" is-config="true" duration-ms="16" started-at="2019-03-14T03:55:02Z" finished-at="2019-03-14T03:55:02Z">
+        <test-method status="PASS" signature="end()[pri:0, instance:com.stringOperation.Test.EqualsTest@68be2bc2]" name="end" is-config="true" duration-ms="0" started-at="2019-05-05T19:04:43Z" finished-at="2019-05-05T19:04:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- end -->
-        <test-method status="PASS" signature="equalsMethodTest(java.lang.String, java.lang.String)[pri:0, instance:com.stringOperation.Test.EqualsTest@7c16905e]" name="equalsMethodTest" duration-ms="0" started-at="2019-03-14T03:55:02Z" data-provider="dp" finished-at="2019-03-14T03:55:02Z">
+        <test-method status="PASS" signature="init()[pri:0, instance:com.stringOperation.Test.EqualsTest@68be2bc2]" name="init" is-config="true" duration-ms="1" started-at="2019-05-05T19:04:43Z" finished-at="2019-05-05T19:04:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="equalsMethodTest(java.lang.String, java.lang.String)[pri:0, instance:com.stringOperation.Test.EqualsTest@68be2bc2]" name="equalsMethodTest" duration-ms="21" started-at="2019-05-05T19:04:43Z" data-provider="dp" finished-at="2019-05-05T19:04:43Z">
           <params>
             <param index="0">
               <value>
@@ -47,19 +85,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- equalsMethodTest -->
-        <test-method status="PASS" signature="init()[pri:0, instance:com.stringOperation.Test.EqualsTest@7c16905e]" name="init" is-config="true" duration-ms="0" started-at="2019-03-14T03:55:02Z" finished-at="2019-03-14T03:55:02Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- init -->
-        <test-method status="PASS" signature="init()[pri:0, instance:com.stringOperation.Test.EqualsTest@7c16905e]" name="init" is-config="true" duration-ms="0" started-at="2019-03-14T03:55:02Z" finished-at="2019-03-14T03:55:02Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- init -->
-        <test-method status="PASS" signature="end()[pri:0, instance:com.stringOperation.Test.EqualsTest@7c16905e]" name="end" is-config="true" duration-ms="0" started-at="2019-03-14T03:55:02Z" finished-at="2019-03-14T03:55:02Z">
+        <test-method status="PASS" signature="end()[pri:0, instance:com.stringOperation.Test.EqualsTest@68be2bc2]" name="end" is-config="true" duration-ms="0" started-at="2019-05-05T19:04:43Z" finished-at="2019-05-05T19:04:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- end -->
-        <test-method status="PASS" signature="equalsMethodTest(java.lang.String, java.lang.String)[pri:0, instance:com.stringOperation.Test.EqualsTest@7c16905e]" name="equalsMethodTest" duration-ms="0" started-at="2019-03-14T03:55:02Z" data-provider="dp" finished-at="2019-03-14T03:55:02Z">
+        <test-method status="PASS" signature="init()[pri:0, instance:com.stringOperation.Test.EqualsTest@68be2bc2]" name="init" is-config="true" duration-ms="1" started-at="2019-05-05T19:04:43Z" finished-at="2019-05-05T19:04:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="equalsMethodTest(java.lang.String, java.lang.String)[pri:0, instance:com.stringOperation.Test.EqualsTest@68be2bc2]" name="equalsMethodTest" duration-ms="10" started-at="2019-05-05T19:04:43Z" data-provider="dp" finished-at="2019-05-05T19:04:43Z">
           <params>
             <param index="0">
               <value>
@@ -75,7 +109,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- equalsMethodTest -->
-        <test-method status="PASS" signature="equalsOperatorTest(java.lang.String, java.lang.String)[pri:0, instance:com.stringOperation.Test.EqualsTest@7c16905e]" name="equalsOperatorTest" duration-ms="16" started-at="2019-03-14T03:55:02Z" data-provider="dp" finished-at="2019-03-14T03:55:02Z">
+        <test-method status="PASS" signature="end()[pri:0, instance:com.stringOperation.Test.EqualsTest@68be2bc2]" name="end" is-config="true" duration-ms="1" started-at="2019-05-05T19:04:43Z" finished-at="2019-05-05T19:04:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- end -->
+        <test-method status="PASS" signature="equalsOperatorTest(java.lang.String, java.lang.String)[pri:0, instance:com.stringOperation.Test.EqualsTest@68be2bc2]" name="equalsOperatorTest" duration-ms="5" started-at="2019-05-05T19:04:43Z" data-provider="dp" finished-at="2019-05-05T19:04:43Z">
           <params>
             <param index="0">
               <value>
@@ -91,19 +129,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- equalsOperatorTest -->
-        <test-method status="PASS" signature="end()[pri:0, instance:com.stringOperation.Test.EqualsTest@7c16905e]" name="end" is-config="true" duration-ms="0" started-at="2019-03-14T03:55:02Z" finished-at="2019-03-14T03:55:02Z">
+        <test-method status="PASS" signature="init()[pri:0, instance:com.stringOperation.Test.EqualsTest@68be2bc2]" name="init" is-config="true" duration-ms="0" started-at="2019-05-05T19:04:43Z" finished-at="2019-05-05T19:04:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="end()[pri:0, instance:com.stringOperation.Test.EqualsTest@68be2bc2]" name="end" is-config="true" duration-ms="1" started-at="2019-05-05T19:04:43Z" finished-at="2019-05-05T19:04:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- end -->
-        <test-method status="PASS" signature="init()[pri:0, instance:com.stringOperation.Test.EqualsTest@7c16905e]" name="init" is-config="true" duration-ms="0" started-at="2019-03-14T03:55:02Z" finished-at="2019-03-14T03:55:02Z">
+        <test-method status="PASS" signature="init()[pri:0, instance:com.stringOperation.Test.EqualsTest@68be2bc2]" name="init" is-config="true" duration-ms="0" started-at="2019-05-05T19:04:43Z" finished-at="2019-05-05T19:04:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method status="PASS" signature="init()[pri:0, instance:com.stringOperation.Test.EqualsTest@7c16905e]" name="init" is-config="true" duration-ms="0" started-at="2019-03-14T03:55:02Z" finished-at="2019-03-14T03:55:02Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- init -->
-        <test-method status="PASS" signature="equalsOperatorTest(java.lang.String, java.lang.String)[pri:0, instance:com.stringOperation.Test.EqualsTest@7c16905e]" name="equalsOperatorTest" duration-ms="16" started-at="2019-03-14T03:55:02Z" data-provider="dp" finished-at="2019-03-14T03:55:02Z">
+        <test-method status="PASS" signature="equalsOperatorTest(java.lang.String, java.lang.String)[pri:0, instance:com.stringOperation.Test.EqualsTest@68be2bc2]" name="equalsOperatorTest" duration-ms="48" started-at="2019-05-05T19:04:43Z" data-provider="dp" finished-at="2019-05-05T19:04:43Z">
           <params>
             <param index="0">
               <value>
@@ -119,15 +157,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- equalsOperatorTest -->
-        <test-method status="PASS" signature="end()[pri:0, instance:com.stringOperation.Test.EqualsTest@7c16905e]" name="end" is-config="true" duration-ms="0" started-at="2019-03-14T03:55:02Z" finished-at="2019-03-14T03:55:02Z">
+        <test-method status="PASS" signature="end()[pri:0, instance:com.stringOperation.Test.EqualsTest@68be2bc2]" name="end" is-config="true" duration-ms="1" started-at="2019-05-05T19:04:43Z" finished-at="2019-05-05T19:04:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- end -->
-        <test-method status="PASS" signature="init()[pri:0, instance:com.stringOperation.Test.EqualsTest@7c16905e]" name="init" is-config="true" duration-ms="0" started-at="2019-03-14T03:55:02Z" finished-at="2019-03-14T03:55:02Z">
+        <test-method status="PASS" signature="init()[pri:0, instance:com.stringOperation.Test.EqualsTest@68be2bc2]" name="init" is-config="true" duration-ms="1" started-at="2019-05-05T19:04:43Z" finished-at="2019-05-05T19:04:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method status="PASS" signature="equalsOperatorTest(java.lang.String, java.lang.String)[pri:0, instance:com.stringOperation.Test.EqualsTest@7c16905e]" name="equalsOperatorTest" duration-ms="47" started-at="2019-03-14T03:55:02Z" data-provider="dp" finished-at="2019-03-14T03:55:02Z">
+        <test-method status="PASS" signature="equalsOperatorTest(java.lang.String, java.lang.String)[pri:0, instance:com.stringOperation.Test.EqualsTest@68be2bc2]" name="equalsOperatorTest" duration-ms="28" started-at="2019-05-05T19:04:43Z" data-provider="dp" finished-at="2019-05-05T19:04:43Z">
           <params>
             <param index="0">
               <value>
@@ -143,17 +181,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- equalsOperatorTest -->
-        <test-method status="PASS" signature="end()[pri:0, instance:com.stringOperation.Test.EqualsTest@7c16905e]" name="end" is-config="true" duration-ms="0" started-at="2019-03-14T03:55:02Z" finished-at="2019-03-14T03:55:02Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- end -->
-        <test-method status="PASS" signature="end()[pri:0, instance:com.stringOperation.Test.EqualsTest@7c16905e]" name="end" is-config="true" duration-ms="0" started-at="2019-03-14T03:55:02Z" finished-at="2019-03-14T03:55:02Z">
+        <test-method status="PASS" signature="end()[pri:0, instance:com.stringOperation.Test.EqualsTest@68be2bc2]" name="end" is-config="true" duration-ms="0" started-at="2019-05-05T19:04:43Z" finished-at="2019-05-05T19:04:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- end -->
       </class> <!-- com.stringOperation.Test.EqualsTest -->
       <class name="com.stringOperation.Test.RemoveJunkTest">
-        <test-method status="PASS" signature="usigReplase(java.lang.String, java.lang.String)[pri:0, instance:com.stringOperation.Test.RemoveJunkTest@4f933fd1]" name="usigReplase" duration-ms="78" started-at="2019-03-14T03:55:02Z" data-provider="dp" finished-at="2019-03-14T03:55:02Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.stringOperation.Test.RemoveJunkTest@2a2d45ba]" name="beforeMethod" is-config="true" duration-ms="5" started-at="2019-05-05T19:04:43Z" finished-at="2019-05-05T19:04:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="usigReplase(java.lang.String, java.lang.String)[pri:0, instance:com.stringOperation.Test.RemoveJunkTest@2a2d45ba]" name="usigReplase" duration-ms="61" started-at="2019-05-05T19:04:43Z" data-provider="dp" finished-at="2019-05-05T19:04:43Z">
           <params>
             <param index="0">
               <value>
@@ -169,19 +207,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- usigReplase -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.stringOperation.Test.RemoveJunkTest@4f933fd1]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-03-14T03:55:02Z" finished-at="2019-03-14T03:55:02Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.stringOperation.Test.RemoveJunkTest@4f933fd1]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-03-14T03:55:02Z" finished-at="2019-03-14T03:55:02Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.stringOperation.Test.RemoveJunkTest@4f933fd1]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-03-14T03:55:02Z" finished-at="2019-03-14T03:55:02Z">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.stringOperation.Test.RemoveJunkTest@2a2d45ba]" name="afterMethod" is-config="true" duration-ms="2" started-at="2019-05-05T19:04:43Z" finished-at="2019-05-05T19:04:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="usigReplase(java.lang.String, java.lang.String)[pri:0, instance:com.stringOperation.Test.RemoveJunkTest@4f933fd1]" name="usigReplase" duration-ms="110" started-at="2019-03-14T03:55:02Z" data-provider="dp" finished-at="2019-03-14T03:55:02Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.stringOperation.Test.RemoveJunkTest@2a2d45ba]" name="beforeMethod" is-config="true" duration-ms="9" started-at="2019-05-05T19:04:43Z" finished-at="2019-05-05T19:04:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="usigReplase(java.lang.String, java.lang.String)[pri:0, instance:com.stringOperation.Test.RemoveJunkTest@2a2d45ba]" name="usigReplase" duration-ms="52" started-at="2019-05-05T19:04:43Z" data-provider="dp" finished-at="2019-05-05T19:04:43Z">
           <params>
             <param index="0">
               <value>
@@ -197,11 +231,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- usigReplase -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.stringOperation.Test.RemoveJunkTest@4f933fd1]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-03-14T03:55:02Z" finished-at="2019-03-14T03:55:02Z">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.stringOperation.Test.RemoveJunkTest@2a2d45ba]" name="afterMethod" is-config="true" duration-ms="1" started-at="2019-05-05T19:04:43Z" finished-at="2019-05-05T19:04:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="usigReplase(java.lang.String, java.lang.String)[pri:0, instance:com.stringOperation.Test.RemoveJunkTest@4f933fd1]" name="usigReplase" duration-ms="0" started-at="2019-03-14T03:55:02Z" data-provider="dp" finished-at="2019-03-14T03:55:02Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.stringOperation.Test.RemoveJunkTest@2a2d45ba]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2019-05-05T19:04:43Z" finished-at="2019-05-05T19:04:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="usigReplase(java.lang.String, java.lang.String)[pri:0, instance:com.stringOperation.Test.RemoveJunkTest@2a2d45ba]" name="usigReplase" duration-ms="4" started-at="2019-05-05T19:04:43Z" data-provider="dp" finished-at="2019-05-05T19:04:43Z">
           <params>
             <param index="0">
               <value>
@@ -217,19 +255,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- usigReplase -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.stringOperation.Test.RemoveJunkTest@4f933fd1]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-03-14T03:55:02Z" finished-at="2019-03-14T03:55:02Z">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.stringOperation.Test.RemoveJunkTest@2a2d45ba]" name="afterMethod" is-config="true" duration-ms="2" started-at="2019-05-05T19:04:43Z" finished-at="2019-05-05T19:04:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.stringOperation.Test.RemoveJunkTest@4f933fd1]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-03-14T03:55:02Z" finished-at="2019-03-14T03:55:02Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.stringOperation.Test.RemoveJunkTest@2a2d45ba]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-05-05T19:04:43Z" finished-at="2019-05-05T19:04:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.stringOperation.Test.RemoveJunkTest@4f933fd1]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-03-14T03:55:02Z" finished-at="2019-03-14T03:55:02Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="usingcharAT(java.lang.String, java.lang.String)[pri:0, instance:com.stringOperation.Test.RemoveJunkTest@4f933fd1]" name="usingcharAT" duration-ms="16" started-at="2019-03-14T03:55:02Z" data-provider="dp" finished-at="2019-03-14T03:55:02Z">
+        <test-method status="PASS" signature="usingcharAT(java.lang.String, java.lang.String)[pri:0, instance:com.stringOperation.Test.RemoveJunkTest@2a2d45ba]" name="usingcharAT" duration-ms="60" started-at="2019-05-05T19:04:43Z" data-provider="dp" finished-at="2019-05-05T19:04:43Z">
           <params>
             <param index="0">
               <value>
@@ -245,15 +279,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- usingcharAT -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.stringOperation.Test.RemoveJunkTest@4f933fd1]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-03-14T03:55:02Z" finished-at="2019-03-14T03:55:02Z">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.stringOperation.Test.RemoveJunkTest@2a2d45ba]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-05-05T19:04:43Z" finished-at="2019-05-05T19:04:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.stringOperation.Test.RemoveJunkTest@4f933fd1]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-03-14T03:55:02Z" finished-at="2019-03-14T03:55:02Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.stringOperation.Test.RemoveJunkTest@2a2d45ba]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2019-05-05T19:04:43Z" finished-at="2019-05-05T19:04:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="usingcharAT(java.lang.String, java.lang.String)[pri:0, instance:com.stringOperation.Test.RemoveJunkTest@4f933fd1]" name="usingcharAT" duration-ms="93" started-at="2019-03-14T03:55:02Z" data-provider="dp" finished-at="2019-03-14T03:55:02Z">
+        <test-method status="PASS" signature="usingcharAT(java.lang.String, java.lang.String)[pri:0, instance:com.stringOperation.Test.RemoveJunkTest@2a2d45ba]" name="usingcharAT" duration-ms="40" started-at="2019-05-05T19:04:43Z" data-provider="dp" finished-at="2019-05-05T19:04:43Z">
           <params>
             <param index="0">
               <value>
@@ -269,7 +303,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- usingcharAT -->
-        <test-method status="PASS" signature="usingcharAT(java.lang.String, java.lang.String)[pri:0, instance:com.stringOperation.Test.RemoveJunkTest@4f933fd1]" name="usingcharAT" duration-ms="0" started-at="2019-03-14T03:55:02Z" data-provider="dp" finished-at="2019-03-14T03:55:02Z">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.stringOperation.Test.RemoveJunkTest@2a2d45ba]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-05-05T19:04:43Z" finished-at="2019-05-05T19:04:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.stringOperation.Test.RemoveJunkTest@2a2d45ba]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2019-05-05T19:04:43Z" finished-at="2019-05-05T19:04:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="usingcharAT(java.lang.String, java.lang.String)[pri:0, instance:com.stringOperation.Test.RemoveJunkTest@2a2d45ba]" name="usingcharAT" duration-ms="4" started-at="2019-05-05T19:04:43Z" data-provider="dp" finished-at="2019-05-05T19:04:43Z">
           <params>
             <param index="0">
               <value>
@@ -285,21 +327,51 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- usingcharAT -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.stringOperation.Test.RemoveJunkTest@4f933fd1]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-03-14T03:55:02Z" finished-at="2019-03-14T03:55:02Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.stringOperation.Test.RemoveJunkTest@4f933fd1]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-03-14T03:55:02Z" finished-at="2019-03-14T03:55:02Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.stringOperation.Test.RemoveJunkTest@4f933fd1]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-03-14T03:55:02Z" finished-at="2019-03-14T03:55:02Z">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.stringOperation.Test.RemoveJunkTest@2a2d45ba]" name="afterMethod" is-config="true" duration-ms="1" started-at="2019-05-05T19:04:43Z" finished-at="2019-05-05T19:04:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
       </class> <!-- com.stringOperation.Test.RemoveJunkTest -->
+      <class name="com.stringOperation.Test.printDuplicateCountTest">
+        <test-method status="PASS" signature="TestDuplicate(java.lang.String, java.lang.String)[pri:0, instance:com.stringOperation.Test.printDuplicateCountTest@28feb3fa]" name="TestDuplicate" duration-ms="66" started-at="2019-05-05T19:04:43Z" data-provider="dp" finished-at="2019-05-05T19:04:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[my name is rupam]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[a:2,e:1,i:1,m:3,n:1,p:1,r:1,s:1,u:1,y:1,]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestDuplicate -->
+        <test-method status="PASS" signature="TestDuplicate(java.lang.String, java.lang.String)[pri:0, instance:com.stringOperation.Test.printDuplicateCountTest@28feb3fa]" name="TestDuplicate" duration-ms="10" started-at="2019-05-05T19:04:43Z" data-provider="dp" finished-at="2019-05-05T19:04:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ABCabc123ABC123]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1:2,2:2,3:2,A:2,B:2,C:2,a:1,b:1,c:1,]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestDuplicate -->
+      </class> <!-- com.stringOperation.Test.printDuplicateCountTest -->
       <class name="com.stringOperation.Test.DuplcateCharTest">
-        <test-method status="PASS" signature="HashMethodDuplicate(java.lang.String, java.lang.String)[pri:0, instance:com.stringOperation.Test.DuplcateCharTest@548a9f61]" name="HashMethodDuplicate" duration-ms="15" started-at="2019-03-14T03:55:02Z" data-provider="dpHash" finished-at="2019-03-14T03:55:02Z">
+        <test-method status="PASS" signature="initz()[pri:0, instance:com.stringOperation.Test.DuplcateCharTest@2a5ca609]" name="initz" is-config="true" duration-ms="1184" started-at="2019-05-05T19:04:43Z" finished-at="2019-05-05T19:04:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initz -->
+        <test-method status="PASS" signature="HashMethodDuplicate(java.lang.String, java.lang.String)[pri:0, instance:com.stringOperation.Test.DuplcateCharTest@2a5ca609]" name="HashMethodDuplicate" duration-ms="5" started-at="2019-05-05T19:04:44Z" data-provider="dpHash" finished-at="2019-05-05T19:04:44Z">
           <params>
             <param index="0">
               <value>
@@ -315,19 +387,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- HashMethodDuplicate -->
-        <test-method status="PASS" signature="initz()[pri:0, instance:com.stringOperation.Test.DuplcateCharTest@548a9f61]" name="initz" is-config="true" duration-ms="0" started-at="2019-03-14T03:55:02Z" finished-at="2019-03-14T03:55:02Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initz -->
-        <test-method status="PASS" signature="destroy()[pri:0, instance:com.stringOperation.Test.DuplcateCharTest@548a9f61]" name="destroy" is-config="true" duration-ms="0" started-at="2019-03-14T03:55:02Z" finished-at="2019-03-14T03:55:02Z">
+        <test-method status="PASS" signature="destroy()[pri:0, instance:com.stringOperation.Test.DuplcateCharTest@2a5ca609]" name="destroy" is-config="true" duration-ms="0" started-at="2019-05-05T19:04:44Z" finished-at="2019-05-05T19:04:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- destroy -->
-        <test-method status="PASS" signature="initz()[pri:0, instance:com.stringOperation.Test.DuplcateCharTest@548a9f61]" name="initz" is-config="true" duration-ms="16" started-at="2019-03-14T03:55:02Z" finished-at="2019-03-14T03:55:02Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initz -->
-        <test-method status="PASS" signature="HashMethodDuplicate(java.lang.String, java.lang.String)[pri:0, instance:com.stringOperation.Test.DuplcateCharTest@548a9f61]" name="HashMethodDuplicate" duration-ms="93" started-at="2019-03-14T03:55:02Z" data-provider="dpHash" finished-at="2019-03-14T03:55:02Z">
+        <test-method status="PASS" signature="HashMethodDuplicate(java.lang.String, java.lang.String)[pri:0, instance:com.stringOperation.Test.DuplcateCharTest@2a5ca609]" name="HashMethodDuplicate" duration-ms="23" started-at="2019-05-05T19:04:44Z" data-provider="dpHash" finished-at="2019-05-05T19:04:44Z">
           <params>
             <param index="0">
               <value>
@@ -343,11 +407,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- HashMethodDuplicate -->
-        <test-method status="PASS" signature="destroy()[pri:0, instance:com.stringOperation.Test.DuplcateCharTest@548a9f61]" name="destroy" is-config="true" duration-ms="0" started-at="2019-03-14T03:55:02Z" finished-at="2019-03-14T03:55:02Z">
+        <test-method status="PASS" signature="initz()[pri:0, instance:com.stringOperation.Test.DuplcateCharTest@2a5ca609]" name="initz" is-config="true" duration-ms="0" started-at="2019-05-05T19:04:44Z" finished-at="2019-05-05T19:04:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initz -->
+        <test-method status="PASS" signature="destroy()[pri:0, instance:com.stringOperation.Test.DuplcateCharTest@2a5ca609]" name="destroy" is-config="true" duration-ms="1" started-at="2019-05-05T19:04:44Z" finished-at="2019-05-05T19:04:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- destroy -->
-        <test-method status="PASS" signature="checkDuplicate(java.lang.String, java.lang.String)[pri:0, instance:com.stringOperation.Test.DuplcateCharTest@548a9f61]" name="checkDuplicate" duration-ms="16" started-at="2019-03-14T03:55:02Z" data-provider="dp" finished-at="2019-03-14T03:55:02Z">
+        <test-method status="PASS" signature="initz()[pri:0, instance:com.stringOperation.Test.DuplcateCharTest@2a5ca609]" name="initz" is-config="true" duration-ms="1" started-at="2019-05-05T19:04:44Z" finished-at="2019-05-05T19:04:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initz -->
+        <test-method status="PASS" signature="checkDuplicate(java.lang.String, java.lang.String)[pri:0, instance:com.stringOperation.Test.DuplcateCharTest@2a5ca609]" name="checkDuplicate" duration-ms="13" started-at="2019-05-05T19:04:44Z" data-provider="dp" finished-at="2019-05-05T19:04:44Z">
           <params>
             <param index="0">
               <value>
@@ -363,11 +435,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkDuplicate -->
-        <test-method status="PASS" signature="initz()[pri:0, instance:com.stringOperation.Test.DuplcateCharTest@548a9f61]" name="initz" is-config="true" duration-ms="0" started-at="2019-03-14T03:55:02Z" finished-at="2019-03-14T03:55:02Z">
+        <test-method status="PASS" signature="destroy()[pri:0, instance:com.stringOperation.Test.DuplcateCharTest@2a5ca609]" name="destroy" is-config="true" duration-ms="13" started-at="2019-05-05T19:04:44Z" finished-at="2019-05-05T19:04:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- destroy -->
+        <test-method status="PASS" signature="initz()[pri:0, instance:com.stringOperation.Test.DuplcateCharTest@2a5ca609]" name="initz" is-config="true" duration-ms="1" started-at="2019-05-05T19:04:44Z" finished-at="2019-05-05T19:04:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initz -->
-        <test-method status="PASS" signature="checkDuplicate(java.lang.String, java.lang.String)[pri:0, instance:com.stringOperation.Test.DuplcateCharTest@548a9f61]" name="checkDuplicate" duration-ms="78" started-at="2019-03-14T03:55:02Z" data-provider="dp" finished-at="2019-03-14T03:55:02Z">
+        <test-method status="PASS" signature="checkDuplicate(java.lang.String, java.lang.String)[pri:0, instance:com.stringOperation.Test.DuplcateCharTest@2a5ca609]" name="checkDuplicate" duration-ms="19" started-at="2019-05-05T19:04:44Z" data-provider="dp" finished-at="2019-05-05T19:04:44Z">
           <params>
             <param index="0">
               <value>
@@ -383,33 +459,25 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkDuplicate -->
-        <test-method status="PASS" signature="destroy()[pri:0, instance:com.stringOperation.Test.DuplcateCharTest@548a9f61]" name="destroy" is-config="true" duration-ms="0" started-at="2019-03-14T03:55:02Z" finished-at="2019-03-14T03:55:02Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- destroy -->
-        <test-method status="PASS" signature="initz()[pri:0, instance:com.stringOperation.Test.DuplcateCharTest@548a9f61]" name="initz" is-config="true" duration-ms="0" started-at="2019-03-14T03:55:02Z" finished-at="2019-03-14T03:55:02Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initz -->
-        <test-method status="PASS" signature="destroy()[pri:0, instance:com.stringOperation.Test.DuplcateCharTest@548a9f61]" name="destroy" is-config="true" duration-ms="0" started-at="2019-03-14T03:55:02Z" finished-at="2019-03-14T03:55:02Z">
+        <test-method status="PASS" signature="destroy()[pri:0, instance:com.stringOperation.Test.DuplcateCharTest@2a5ca609]" name="destroy" is-config="true" duration-ms="0" started-at="2019-05-05T19:04:44Z" finished-at="2019-05-05T19:04:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- destroy -->
       </class> <!-- com.stringOperation.Test.DuplcateCharTest -->
       <class name="com.stringOperation.Test.ReverseStringTest">
-        <test-method status="PASS" signature="test()[pri:0, instance:com.stringOperation.Test.ReverseStringTest@d2cc05a]" name="test" is-config="true" duration-ms="0" started-at="2019-03-14T03:55:02Z" finished-at="2019-03-14T03:55:02Z">
+        <test-method status="PASS" signature="test()[pri:0, instance:com.stringOperation.Test.ReverseStringTest@7c16905e]" name="test" is-config="true" duration-ms="1" started-at="2019-05-05T19:04:43Z" finished-at="2019-05-05T19:04:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method status="PASS" signature="cls()[pri:0, instance:com.stringOperation.Test.ReverseStringTest@d2cc05a]" name="cls" is-config="true" duration-ms="0" started-at="2019-03-14T03:55:02Z" finished-at="2019-03-14T03:55:02Z">
+        <test-method status="PASS" signature="cls()[pri:0, instance:com.stringOperation.Test.ReverseStringTest@7c16905e]" name="cls" is-config="true" duration-ms="1" started-at="2019-05-05T19:04:43Z" finished-at="2019-05-05T19:04:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cls -->
-        <test-method status="PASS" signature="objIntialise()[pri:0, instance:com.stringOperation.Test.ReverseStringTest@d2cc05a]" name="objIntialise" is-config="true" duration-ms="0" started-at="2019-03-14T03:55:02Z" finished-at="2019-03-14T03:55:02Z">
+        <test-method status="PASS" signature="objIntialise()[pri:0, instance:com.stringOperation.Test.ReverseStringTest@7c16905e]" name="objIntialise" is-config="true" duration-ms="2" started-at="2019-05-05T19:04:44Z" finished-at="2019-05-05T19:04:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- objIntialise -->
-        <test-method status="PASS" signature="ReverseStringbuilderTest(java.lang.String, java.lang.String)[pri:0, instance:com.stringOperation.Test.ReverseStringTest@d2cc05a]" name="ReverseStringbuilderTest" duration-ms="31" started-at="2019-03-14T03:55:02Z" data-provider="TestData" finished-at="2019-03-14T03:55:02Z">
+        <test-method status="PASS" signature="ReverseStringbuilderTest(java.lang.String, java.lang.String)[pri:0, instance:com.stringOperation.Test.ReverseStringTest@7c16905e]" name="ReverseStringbuilderTest" duration-ms="6" started-at="2019-05-05T19:04:44Z" data-provider="TestData" finished-at="2019-05-05T19:04:44Z">
           <params>
             <param index="0">
               <value>
@@ -425,7 +493,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ReverseStringbuilderTest -->
-        <test-method status="PASS" signature="ReverseStringbuilderTest(java.lang.String, java.lang.String)[pri:0, instance:com.stringOperation.Test.ReverseStringTest@d2cc05a]" name="ReverseStringbuilderTest" duration-ms="16" started-at="2019-03-14T03:55:02Z" data-provider="TestData" finished-at="2019-03-14T03:55:02Z">
+        <test-method status="PASS" signature="destroy()[pri:0, instance:com.stringOperation.Test.ReverseStringTest@7c16905e]" name="destroy" is-config="true" duration-ms="0" started-at="2019-05-05T19:04:44Z" finished-at="2019-05-05T19:04:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- destroy -->
+        <test-method status="PASS" signature="objIntialise()[pri:0, instance:com.stringOperation.Test.ReverseStringTest@7c16905e]" name="objIntialise" is-config="true" duration-ms="1" started-at="2019-05-05T19:04:44Z" finished-at="2019-05-05T19:04:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- objIntialise -->
+        <test-method status="PASS" signature="ReverseStringbuilderTest(java.lang.String, java.lang.String)[pri:0, instance:com.stringOperation.Test.ReverseStringTest@7c16905e]" name="ReverseStringbuilderTest" duration-ms="21" started-at="2019-05-05T19:04:44Z" data-provider="TestData" finished-at="2019-05-05T19:04:44Z">
           <params>
             <param index="0">
               <value>
@@ -441,23 +517,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ReverseStringbuilderTest -->
-        <test-method status="PASS" signature="objIntialise()[pri:0, instance:com.stringOperation.Test.ReverseStringTest@d2cc05a]" name="objIntialise" is-config="true" duration-ms="0" started-at="2019-03-14T03:55:02Z" finished-at="2019-03-14T03:55:02Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- objIntialise -->
-        <test-method status="PASS" signature="destroy()[pri:0, instance:com.stringOperation.Test.ReverseStringTest@d2cc05a]" name="destroy" is-config="true" duration-ms="0" started-at="2019-03-14T03:55:02Z" finished-at="2019-03-14T03:55:02Z">
+        <test-method status="PASS" signature="destroy()[pri:0, instance:com.stringOperation.Test.ReverseStringTest@7c16905e]" name="destroy" is-config="true" duration-ms="1" started-at="2019-05-05T19:04:44Z" finished-at="2019-05-05T19:04:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- destroy -->
-        <test-method status="PASS" signature="objIntialise()[pri:0, instance:com.stringOperation.Test.ReverseStringTest@d2cc05a]" name="objIntialise" is-config="true" duration-ms="15" started-at="2019-03-14T03:55:02Z" finished-at="2019-03-14T03:55:02Z">
+        <test-method status="PASS" signature="objIntialise()[pri:0, instance:com.stringOperation.Test.ReverseStringTest@7c16905e]" name="objIntialise" is-config="true" duration-ms="1" started-at="2019-05-05T19:04:44Z" finished-at="2019-05-05T19:04:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- objIntialise -->
-        <test-method status="PASS" signature="destroy()[pri:0, instance:com.stringOperation.Test.ReverseStringTest@d2cc05a]" name="destroy" is-config="true" duration-ms="0" started-at="2019-03-14T03:55:02Z" finished-at="2019-03-14T03:55:02Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- destroy -->
-        <test-method status="PASS" signature="ReverseStringbuilderTest(java.lang.String, java.lang.String)[pri:0, instance:com.stringOperation.Test.ReverseStringTest@d2cc05a]" name="ReverseStringbuilderTest" duration-ms="0" started-at="2019-03-14T03:55:02Z" data-provider="TestData" finished-at="2019-03-14T03:55:02Z">
+        <test-method status="PASS" signature="ReverseStringbuilderTest(java.lang.String, java.lang.String)[pri:0, instance:com.stringOperation.Test.ReverseStringTest@7c16905e]" name="ReverseStringbuilderTest" duration-ms="22" started-at="2019-05-05T19:04:44Z" data-provider="TestData" finished-at="2019-05-05T19:04:44Z">
           <params>
             <param index="0">
               <value>
@@ -473,15 +541,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ReverseStringbuilderTest -->
-        <test-method status="PASS" signature="objIntialise()[pri:0, instance:com.stringOperation.Test.ReverseStringTest@d2cc05a]" name="objIntialise" is-config="true" duration-ms="0" started-at="2019-03-14T03:55:02Z" finished-at="2019-03-14T03:55:02Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- objIntialise -->
-        <test-method status="PASS" signature="destroy()[pri:0, instance:com.stringOperation.Test.ReverseStringTest@d2cc05a]" name="destroy" is-config="true" duration-ms="0" started-at="2019-03-14T03:55:02Z" finished-at="2019-03-14T03:55:02Z">
+        <test-method status="PASS" signature="destroy()[pri:0, instance:com.stringOperation.Test.ReverseStringTest@7c16905e]" name="destroy" is-config="true" duration-ms="1" started-at="2019-05-05T19:04:44Z" finished-at="2019-05-05T19:04:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- destroy -->
-        <test-method status="PASS" signature="ReverseStringbuilderTest(java.lang.String, java.lang.String)[pri:0, instance:com.stringOperation.Test.ReverseStringTest@d2cc05a]" name="ReverseStringbuilderTest" duration-ms="16" started-at="2019-03-14T03:55:02Z" data-provider="TestData" finished-at="2019-03-14T03:55:02Z">
+        <test-method status="PASS" signature="objIntialise()[pri:0, instance:com.stringOperation.Test.ReverseStringTest@7c16905e]" name="objIntialise" is-config="true" duration-ms="1" started-at="2019-05-05T19:04:44Z" finished-at="2019-05-05T19:04:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- objIntialise -->
+        <test-method status="PASS" signature="ReverseStringbuilderTest(java.lang.String, java.lang.String)[pri:0, instance:com.stringOperation.Test.ReverseStringTest@7c16905e]" name="ReverseStringbuilderTest" duration-ms="24" started-at="2019-05-05T19:04:44Z" data-provider="TestData" finished-at="2019-05-05T19:04:44Z">
           <params>
             <param index="0">
               <value>
@@ -497,15 +565,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ReverseStringbuilderTest -->
-        <test-method status="PASS" signature="objIntialise()[pri:0, instance:com.stringOperation.Test.ReverseStringTest@d2cc05a]" name="objIntialise" is-config="true" duration-ms="0" started-at="2019-03-14T03:55:02Z" finished-at="2019-03-14T03:55:02Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- objIntialise -->
-        <test-method status="PASS" signature="destroy()[pri:0, instance:com.stringOperation.Test.ReverseStringTest@d2cc05a]" name="destroy" is-config="true" duration-ms="0" started-at="2019-03-14T03:55:02Z" finished-at="2019-03-14T03:55:02Z">
+        <test-method status="PASS" signature="destroy()[pri:0, instance:com.stringOperation.Test.ReverseStringTest@7c16905e]" name="destroy" is-config="true" duration-ms="0" started-at="2019-05-05T19:04:44Z" finished-at="2019-05-05T19:04:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- destroy -->
-        <test-method status="PASS" signature="ReverseStringbuilderTest(java.lang.String, java.lang.String)[pri:0, instance:com.stringOperation.Test.ReverseStringTest@d2cc05a]" name="ReverseStringbuilderTest" duration-ms="125" started-at="2019-03-14T03:55:02Z" data-provider="TestData" finished-at="2019-03-14T03:55:02Z">
+        <test-method status="PASS" signature="objIntialise()[pri:0, instance:com.stringOperation.Test.ReverseStringTest@7c16905e]" name="objIntialise" is-config="true" duration-ms="0" started-at="2019-05-05T19:04:44Z" finished-at="2019-05-05T19:04:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- objIntialise -->
+        <test-method status="PASS" signature="ReverseStringbuilderTest(java.lang.String, java.lang.String)[pri:0, instance:com.stringOperation.Test.ReverseStringTest@7c16905e]" name="ReverseStringbuilderTest" duration-ms="13" started-at="2019-05-05T19:04:44Z" data-provider="TestData" finished-at="2019-05-05T19:04:44Z">
           <params>
             <param index="0">
               <value>
@@ -521,11 +589,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ReverseStringbuilderTest -->
-        <test-method status="PASS" signature="destroy()[pri:0, instance:com.stringOperation.Test.ReverseStringTest@d2cc05a]" name="destroy" is-config="true" duration-ms="0" started-at="2019-03-14T03:55:02Z" finished-at="2019-03-14T03:55:02Z">
+        <test-method status="PASS" signature="destroy()[pri:0, instance:com.stringOperation.Test.ReverseStringTest@7c16905e]" name="destroy" is-config="true" duration-ms="0" started-at="2019-05-05T19:04:44Z" finished-at="2019-05-05T19:04:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- destroy -->
-        <test-method status="PASS" signature="ReversestringTest(java.lang.String, java.lang.String)[pri:0, instance:com.stringOperation.Test.ReverseStringTest@d2cc05a]" name="ReversestringTest" duration-ms="31" started-at="2019-03-14T03:55:02Z" data-provider="TestData" finished-at="2019-03-14T03:55:02Z">
+        <test-method status="PASS" signature="objIntialise()[pri:0, instance:com.stringOperation.Test.ReverseStringTest@7c16905e]" name="objIntialise" is-config="true" duration-ms="1" started-at="2019-05-05T19:04:44Z" finished-at="2019-05-05T19:04:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- objIntialise -->
+        <test-method status="PASS" signature="ReversestringTest(java.lang.String, java.lang.String)[pri:0, instance:com.stringOperation.Test.ReverseStringTest@7c16905e]" name="ReversestringTest" duration-ms="6" started-at="2019-05-05T19:04:44Z" data-provider="TestData" finished-at="2019-05-05T19:04:44Z">
           <params>
             <param index="0">
               <value>
@@ -541,19 +613,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ReversestringTest -->
-        <test-method status="PASS" signature="objIntialise()[pri:0, instance:com.stringOperation.Test.ReverseStringTest@d2cc05a]" name="objIntialise" is-config="true" duration-ms="0" started-at="2019-03-14T03:55:02Z" finished-at="2019-03-14T03:55:02Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- objIntialise -->
-        <test-method status="PASS" signature="destroy()[pri:0, instance:com.stringOperation.Test.ReverseStringTest@d2cc05a]" name="destroy" is-config="true" duration-ms="0" started-at="2019-03-14T03:55:02Z" finished-at="2019-03-14T03:55:02Z">
+        <test-method status="PASS" signature="destroy()[pri:0, instance:com.stringOperation.Test.ReverseStringTest@7c16905e]" name="destroy" is-config="true" duration-ms="0" started-at="2019-05-05T19:04:44Z" finished-at="2019-05-05T19:04:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- destroy -->
-        <test-method status="PASS" signature="objIntialise()[pri:0, instance:com.stringOperation.Test.ReverseStringTest@d2cc05a]" name="objIntialise" is-config="true" duration-ms="16" started-at="2019-03-14T03:55:02Z" finished-at="2019-03-14T03:55:02Z">
+        <test-method status="PASS" signature="objIntialise()[pri:0, instance:com.stringOperation.Test.ReverseStringTest@7c16905e]" name="objIntialise" is-config="true" duration-ms="0" started-at="2019-05-05T19:04:44Z" finished-at="2019-05-05T19:04:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- objIntialise -->
-        <test-method status="PASS" signature="ReversestringTest(java.lang.String, java.lang.String)[pri:0, instance:com.stringOperation.Test.ReverseStringTest@d2cc05a]" name="ReversestringTest" duration-ms="0" started-at="2019-03-14T03:55:02Z" data-provider="TestData" finished-at="2019-03-14T03:55:02Z">
+        <test-method status="PASS" signature="ReversestringTest(java.lang.String, java.lang.String)[pri:0, instance:com.stringOperation.Test.ReverseStringTest@7c16905e]" name="ReversestringTest" duration-ms="3" started-at="2019-05-05T19:04:44Z" data-provider="TestData" finished-at="2019-05-05T19:04:44Z">
           <params>
             <param index="0">
               <value>
@@ -569,7 +637,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ReversestringTest -->
-        <test-method status="PASS" signature="ReversestringTest(java.lang.String, java.lang.String)[pri:0, instance:com.stringOperation.Test.ReverseStringTest@d2cc05a]" name="ReversestringTest" duration-ms="125" started-at="2019-03-14T03:55:02Z" data-provider="TestData" finished-at="2019-03-14T03:55:02Z">
+        <test-method status="PASS" signature="objIntialise()[pri:0, instance:com.stringOperation.Test.ReverseStringTest@7c16905e]" name="objIntialise" is-config="true" duration-ms="8" started-at="2019-05-05T19:04:44Z" finished-at="2019-05-05T19:04:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- objIntialise -->
+        <test-method status="PASS" signature="destroy()[pri:0, instance:com.stringOperation.Test.ReverseStringTest@7c16905e]" name="destroy" is-config="true" duration-ms="0" started-at="2019-05-05T19:04:44Z" finished-at="2019-05-05T19:04:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- destroy -->
+        <test-method status="PASS" signature="ReversestringTest(java.lang.String, java.lang.String)[pri:0, instance:com.stringOperation.Test.ReverseStringTest@7c16905e]" name="ReversestringTest" duration-ms="8" started-at="2019-05-05T19:04:44Z" data-provider="TestData" finished-at="2019-05-05T19:04:44Z">
           <params>
             <param index="0">
               <value>
@@ -585,19 +661,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ReversestringTest -->
-        <test-method status="PASS" signature="objIntialise()[pri:0, instance:com.stringOperation.Test.ReverseStringTest@d2cc05a]" name="objIntialise" is-config="true" duration-ms="0" started-at="2019-03-14T03:55:02Z" finished-at="2019-03-14T03:55:02Z">
+        <test-method status="PASS" signature="destroy()[pri:0, instance:com.stringOperation.Test.ReverseStringTest@7c16905e]" name="destroy" is-config="true" duration-ms="1" started-at="2019-05-05T19:04:44Z" finished-at="2019-05-05T19:04:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- destroy -->
+        <test-method status="PASS" signature="objIntialise()[pri:0, instance:com.stringOperation.Test.ReverseStringTest@7c16905e]" name="objIntialise" is-config="true" duration-ms="0" started-at="2019-05-05T19:04:44Z" finished-at="2019-05-05T19:04:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- objIntialise -->
-        <test-method status="PASS" signature="destroy()[pri:0, instance:com.stringOperation.Test.ReverseStringTest@d2cc05a]" name="destroy" is-config="true" duration-ms="0" started-at="2019-03-14T03:55:02Z" finished-at="2019-03-14T03:55:02Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- destroy -->
-        <test-method status="PASS" signature="destroy()[pri:0, instance:com.stringOperation.Test.ReverseStringTest@d2cc05a]" name="destroy" is-config="true" duration-ms="0" started-at="2019-03-14T03:55:02Z" finished-at="2019-03-14T03:55:02Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- destroy -->
-        <test-method status="PASS" signature="ReversestringTest(java.lang.String, java.lang.String)[pri:0, instance:com.stringOperation.Test.ReverseStringTest@d2cc05a]" name="ReversestringTest" duration-ms="0" started-at="2019-03-14T03:55:02Z" data-provider="TestData" finished-at="2019-03-14T03:55:02Z">
+        <test-method status="PASS" signature="ReversestringTest(java.lang.String, java.lang.String)[pri:0, instance:com.stringOperation.Test.ReverseStringTest@7c16905e]" name="ReversestringTest" duration-ms="53" started-at="2019-05-05T19:04:44Z" data-provider="TestData" finished-at="2019-05-05T19:04:44Z">
           <params>
             <param index="0">
               <value>
@@ -613,11 +685,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ReversestringTest -->
-        <test-method status="PASS" signature="objIntialise()[pri:0, instance:com.stringOperation.Test.ReverseStringTest@d2cc05a]" name="objIntialise" is-config="true" duration-ms="0" started-at="2019-03-14T03:55:02Z" finished-at="2019-03-14T03:55:02Z">
+        <test-method status="PASS" signature="destroy()[pri:0, instance:com.stringOperation.Test.ReverseStringTest@7c16905e]" name="destroy" is-config="true" duration-ms="6" started-at="2019-05-05T19:04:44Z" finished-at="2019-05-05T19:04:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- destroy -->
+        <test-method status="PASS" signature="objIntialise()[pri:0, instance:com.stringOperation.Test.ReverseStringTest@7c16905e]" name="objIntialise" is-config="true" duration-ms="1" started-at="2019-05-05T19:04:44Z" finished-at="2019-05-05T19:04:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- objIntialise -->
-        <test-method status="PASS" signature="ReversestringTest(java.lang.String, java.lang.String)[pri:0, instance:com.stringOperation.Test.ReverseStringTest@d2cc05a]" name="ReversestringTest" duration-ms="0" started-at="2019-03-14T03:55:02Z" data-provider="TestData" finished-at="2019-03-14T03:55:02Z">
+        <test-method status="PASS" signature="ReversestringTest(java.lang.String, java.lang.String)[pri:0, instance:com.stringOperation.Test.ReverseStringTest@7c16905e]" name="ReversestringTest" duration-ms="2" started-at="2019-05-05T19:04:44Z" data-provider="TestData" finished-at="2019-05-05T19:04:44Z">
           <params>
             <param index="0">
               <value>
@@ -633,25 +709,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ReversestringTest -->
-        <test-method status="PASS" signature="destroy()[pri:0, instance:com.stringOperation.Test.ReverseStringTest@d2cc05a]" name="destroy" is-config="true" duration-ms="0" started-at="2019-03-14T03:55:02Z" finished-at="2019-03-14T03:55:02Z">
+        <test-method status="PASS" signature="destroy()[pri:0, instance:com.stringOperation.Test.ReverseStringTest@7c16905e]" name="destroy" is-config="true" duration-ms="1" started-at="2019-05-05T19:04:44Z" finished-at="2019-05-05T19:04:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- destroy -->
-        <test-method status="PASS" signature="destroy()[pri:0, instance:com.stringOperation.Test.ReverseStringTest@d2cc05a]" name="destroy" is-config="true" duration-ms="0" started-at="2019-03-14T03:55:02Z" finished-at="2019-03-14T03:55:02Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- destroy -->
-        <test-method status="PASS" signature="objIntialise()[pri:0, instance:com.stringOperation.Test.ReverseStringTest@d2cc05a]" name="objIntialise" is-config="true" duration-ms="0" started-at="2019-03-14T03:55:02Z" finished-at="2019-03-14T03:55:02Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- objIntialise -->
       </class> <!-- com.stringOperation.Test.ReverseStringTest -->
       <class name="com.stringOperation.Test.NewTest">
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.stringOperation.Test.NewTest@1753acfe]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-03-14T03:55:02Z" finished-at="2019-03-14T03:55:02Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.stringOperation.Test.NewTest@20e2cbe0]" name="beforeMethod" is-config="true" duration-ms="4" started-at="2019-05-05T19:04:43Z" finished-at="2019-05-05T19:04:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="f(java.lang.String, java.lang.String)[pri:0, instance:com.stringOperation.Test.NewTest@1753acfe]" name="f" duration-ms="78" started-at="2019-03-14T03:55:02Z" data-provider="dp" finished-at="2019-03-14T03:55:02Z">
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String)[pri:0, instance:com.stringOperation.Test.NewTest@20e2cbe0]" name="f" duration-ms="61" started-at="2019-05-05T19:04:43Z" data-provider="dp" finished-at="2019-05-05T19:04:43Z">
           <params>
             <param index="0">
               <value>
@@ -667,15 +735,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- f -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.stringOperation.Test.NewTest@1753acfe]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-03-14T03:55:02Z" finished-at="2019-03-14T03:55:02Z">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.stringOperation.Test.NewTest@20e2cbe0]" name="afterMethod" is-config="true" duration-ms="12" started-at="2019-05-05T19:04:43Z" finished-at="2019-05-05T19:04:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.stringOperation.Test.NewTest@1753acfe]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-03-14T03:55:02Z" finished-at="2019-03-14T03:55:02Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.stringOperation.Test.NewTest@20e2cbe0]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2019-05-05T19:04:43Z" finished-at="2019-05-05T19:04:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="f(java.lang.String, java.lang.String)[pri:0, instance:com.stringOperation.Test.NewTest@1753acfe]" name="f" duration-ms="46" started-at="2019-03-14T03:55:02Z" data-provider="dp" finished-at="2019-03-14T03:55:02Z">
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String)[pri:0, instance:com.stringOperation.Test.NewTest@20e2cbe0]" name="f" duration-ms="65" started-at="2019-05-05T19:04:43Z" data-provider="dp" finished-at="2019-05-05T19:04:43Z">
           <params>
             <param index="0">
               <value>
@@ -691,15 +759,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- f -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.stringOperation.Test.NewTest@1753acfe]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-03-14T03:55:02Z" finished-at="2019-03-14T03:55:02Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.stringOperation.Test.NewTest@1753acfe]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-03-14T03:55:02Z" finished-at="2019-03-14T03:55:02Z">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.stringOperation.Test.NewTest@20e2cbe0]" name="afterMethod" is-config="true" duration-ms="1" started-at="2019-05-05T19:04:43Z" finished-at="2019-05-05T19:04:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="f(java.lang.String, java.lang.String)[pri:0, instance:com.stringOperation.Test.NewTest@1753acfe]" name="f" duration-ms="141" started-at="2019-03-14T03:55:02Z" data-provider="dp" finished-at="2019-03-14T03:55:02Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.stringOperation.Test.NewTest@20e2cbe0]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2019-05-05T19:04:43Z" finished-at="2019-05-05T19:04:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String)[pri:0, instance:com.stringOperation.Test.NewTest@20e2cbe0]" name="f" duration-ms="7" started-at="2019-05-05T19:04:43Z" data-provider="dp" finished-at="2019-05-05T19:04:43Z">
           <params>
             <param index="0">
               <value>
@@ -715,23 +783,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- f -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.stringOperation.Test.NewTest@1753acfe]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-03-14T03:55:02Z" finished-at="2019-03-14T03:55:02Z">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.stringOperation.Test.NewTest@20e2cbe0]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-05-05T19:04:43Z" finished-at="2019-05-05T19:04:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
       </class> <!-- com.stringOperation.Test.NewTest -->
     </test> <!-- String Operations -->
-    <test name="Number Operations" duration-ms="31" started-at="2019-03-14T03:55:02Z" finished-at="2019-03-14T03:55:02Z">
+    <test name="Number Operations" duration-ms="52" started-at="2019-05-05T19:04:45Z" finished-at="2019-05-05T19:04:45Z">
       <class name="com.NumberOperationTest.ReverseIntegerTest">
-        <test-method status="PASS" signature="dest()[pri:0, instance:com.NumberOperationTest.ReverseIntegerTest@3ffc5af1]" name="dest" is-config="true" duration-ms="0" started-at="2019-03-14T03:55:02Z" finished-at="2019-03-14T03:55:02Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- dest -->
-        <test-method status="PASS" signature="init()[pri:0, instance:com.NumberOperationTest.ReverseIntegerTest@3ffc5af1]" name="init" is-config="true" duration-ms="0" started-at="2019-03-14T03:55:02Z" finished-at="2019-03-14T03:55:02Z">
+        <test-method status="PASS" signature="init()[pri:0, instance:com.NumberOperationTest.ReverseIntegerTest@59f99ea]" name="init" is-config="true" duration-ms="2" started-at="2019-05-05T19:04:45Z" finished-at="2019-05-05T19:04:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method status="PASS" signature="ReverseTest(java.lang.String, java.lang.String)[pri:0, instance:com.NumberOperationTest.ReverseIntegerTest@3ffc5af1]" name="ReverseTest" duration-ms="0" started-at="2019-03-14T03:55:02Z" data-provider="dp" finished-at="2019-03-14T03:55:02Z">
+        <test-method status="PASS" signature="ReverseTest(java.lang.String, java.lang.String)[pri:0, instance:com.NumberOperationTest.ReverseIntegerTest@59f99ea]" name="ReverseTest" duration-ms="6" started-at="2019-05-05T19:04:45Z" data-provider="dp" finished-at="2019-05-05T19:04:45Z">
           <params>
             <param index="0">
               <value>
@@ -747,11 +811,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ReverseTest -->
-        <test-method status="PASS" signature="init()[pri:0, instance:com.NumberOperationTest.ReverseIntegerTest@3ffc5af1]" name="init" is-config="true" duration-ms="0" started-at="2019-03-14T03:55:02Z" finished-at="2019-03-14T03:55:02Z">
+        <test-method status="PASS" signature="dest()[pri:0, instance:com.NumberOperationTest.ReverseIntegerTest@59f99ea]" name="dest" is-config="true" duration-ms="1" started-at="2019-05-05T19:04:45Z" finished-at="2019-05-05T19:04:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dest -->
+        <test-method status="PASS" signature="init()[pri:0, instance:com.NumberOperationTest.ReverseIntegerTest@59f99ea]" name="init" is-config="true" duration-ms="3" started-at="2019-05-05T19:04:45Z" finished-at="2019-05-05T19:04:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method status="PASS" signature="ReverseTest(java.lang.String, java.lang.String)[pri:0, instance:com.NumberOperationTest.ReverseIntegerTest@3ffc5af1]" name="ReverseTest" duration-ms="15" started-at="2019-03-14T03:55:02Z" data-provider="dp" finished-at="2019-03-14T03:55:02Z">
+        <test-method status="PASS" signature="ReverseTest(java.lang.String, java.lang.String)[pri:0, instance:com.NumberOperationTest.ReverseIntegerTest@59f99ea]" name="ReverseTest" duration-ms="5" started-at="2019-05-05T19:04:45Z" data-provider="dp" finished-at="2019-05-05T19:04:45Z">
           <params>
             <param index="0">
               <value>
@@ -767,13 +835,13 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ReverseTest -->
-        <test-method status="PASS" signature="dest()[pri:0, instance:com.NumberOperationTest.ReverseIntegerTest@3ffc5af1]" name="dest" is-config="true" duration-ms="0" started-at="2019-03-14T03:55:02Z" finished-at="2019-03-14T03:55:02Z">
+        <test-method status="PASS" signature="dest()[pri:0, instance:com.NumberOperationTest.ReverseIntegerTest@59f99ea]" name="dest" is-config="true" duration-ms="1" started-at="2019-05-05T19:04:45Z" finished-at="2019-05-05T19:04:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- dest -->
       </class> <!-- com.NumberOperationTest.ReverseIntegerTest -->
       <class name="com.stringOperation.Test.ReverseStringTest">
-        <test-method status="PASS" signature="suit()[pri:0, instance:com.stringOperation.Test.ReverseStringTest@d2cc05a]" name="suit" is-config="true" duration-ms="31" started-at="2019-03-14T03:55:02Z" finished-at="2019-03-14T03:55:02Z">
+        <test-method status="PASS" signature="suit()[pri:0, instance:com.stringOperation.Test.ReverseStringTest@7c16905e]" name="suit" is-config="true" duration-ms="59" started-at="2019-05-05T19:04:43Z" finished-at="2019-05-05T19:04:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- suit -->
