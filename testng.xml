@@ -17,7 +17,7 @@
 	<test name="Number Operations" verbose="2">
 		<classes>
 			<class name="com.NumberOperationTest.ReverseIntegerTest"></class>
-			
+			<class name="com.NumberOperationTest.DivisorOfNumberTest"></class>
 		</classes>
 	</test>
 	
