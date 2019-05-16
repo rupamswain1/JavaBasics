@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="JavaBasics" parallel="classes" thread-count="2" >
+<suite name="JavaBasics" parallel="classes" thread-count="1" >
 	<test name="String Operations" verbose="2">
 		<classes>
 			<class name="com.stringOperation.Test.ReverseStringTest"></class>
@@ -10,6 +10,7 @@
 			<class name="com.stringOperation.Test.EqualsTest"></class>
 			<class name="com.stringOperation.Test.printDuplicateCountTest"></class>
 			<class name="com.stringOperation.Test.sumOfNumberFromString"></class>
+			<class name="com.stringOperation.Test.IndexOfAlphabetTest"></class>
 		</classes>
 	</test>
 	
