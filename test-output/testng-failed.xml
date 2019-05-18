@@ -3,11 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.stringOperation.Test.printDuplicateCountTest">
+      <class name="com.NumberOperationTest.FibonaciTest">
         <methods>
-          <include name="TestDuplicate" invocation-numbers="1"/>
+          <include name="res" invocation-numbers="2 3"/>
         </methods>
-      </class> <!-- com.stringOperation.Test.printDuplicateCountTest -->
+      </class> <!-- com.NumberOperationTest.FibonaciTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
