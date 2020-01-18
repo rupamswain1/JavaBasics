@@ -21,7 +21,7 @@ public class DuplcateCharTest {
 		
 	}
 	
-	@Test(dataProvider="dp")
+	@Test(dataProvider="dp" , groups= {"String"})
 	public void checkDuplicate(String input, String output)
 	{
 		Assert.assertEquals(obj.duplicate(input), output);

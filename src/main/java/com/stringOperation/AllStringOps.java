@@ -1,5 +1,8 @@
 package com.stringOperation;
 
+import java.util.Arrays;
+import java.util.List;
+
 public class AllStringOps {
 
 	public static void main(String[] args) {
@@ -9,6 +12,8 @@ public class AllStringOps {
 		System.out.println("**************");
 		for(int i=0;i<str.length();i++)
 		{
+			char c=str.charAt(i);
+			System.out.println(Character.isUpperCase(c));
 			System.out.println("Charater at index "+i+" is "+str.charAt(i));
 		}
 		System.out.println("*************");
@@ -43,6 +48,12 @@ public class AllStringOps {
 		System.out.println("****************");
 		System.out.println("abcabc".replace("a","e"));
 		System.out.println("abc".replaceAll("[a-z]","[A-Z]"));
+		
+		//join list content to form string
+		System.out.println("****************");
+		List<String> list=Arrays.asList("This","is", "a", "List");
+		System.out.println(String.join(" ", list));
+		
 	}
 
 }

@@ -17,7 +17,7 @@ public class DivisorOfNumberTest
 		return data;
 	}
 	
-	@Test(dataProvider="dataprovider")
+	@Test(dataProvider="dataprovider",groups= {"Number"})
 	public void divisorTest(String input, String output)
 	{
 		DivisorOfNumber obj=new DivisorOfNumber();

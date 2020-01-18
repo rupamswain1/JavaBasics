@@ -21,7 +21,6 @@ public class DuplicateChar {
 					{
 						dup=dup+input.charAt(i);
 						System.out.println(dup+"1111");
-					
 						continue;
 					}
 									
